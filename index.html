@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>invitación</title>
+</head>
+<style>
+    .container-fluid{
+        background-image: url('./fondo2.jpg');
+        width: 100%;
+        height: 100vh;
+        background-size: contain;
+    }
+    .container{
+        width: 70%;
+        margin-top: 5%;
+    }
+    h1{
+        color:#d9930a;
+        text-align: center;
+        padding-top: 10%;
+    }
+    h2{
+        color:#d9930a;
+        text-align: center;
+    }
+    h3{
+        color: whitesmoke;
+        text-align: center;
+    }
+    .btn-primary{
+       background-color: #d9930a;
+       border-style: none;
+       width: 30%;
+       border-radius: 0;
+    }
+
+    .btn-primary {
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+    }
+
+    @-webkit-keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+    }
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+                transform: translate(-2px, 2px);
+    }
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+                transform: translate(-2px, -2px);
+    }
+    60% {
+        -webkit-transform: translate(2px, 2px);
+                transform: translate(2px, 2px);
+    }
+    80% {
+        -webkit-transform: translate(2px, -2px);
+                transform: translate(2px, -2px);
+    }
+    100% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+    }
+    }
+    @keyframes vibrate-1 {
+    0% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+    }
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+                transform: translate(-2px, 2px);
+    }
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+                transform: translate(-2px, -2px);
+    }
+    60% {
+        -webkit-transform: translate(2px, 2px);
+                transform: translate(2px, 2px);
+    }
+    80% {
+        -webkit-transform: translate(2px, -2px);
+                transform: translate(2px, -2px);
+    }
+    100% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+    }
+    }
+
+</style>
+<body>
+    <div class="container-fluid">
+        <h1>Queridas Amigas</h1>
+        <h2>Alejita y Luisa</h2>
+        
+        <div class="container">
+            <h3>Quiero celebrar sus cumpleaños de una manera especial, por lo tanto les tengo una invitacion! </h3>
+        </div>
+
+        <br>
+        <center>
+            <button id="bton" class="btn btn-primary">Ver invitacion</button>
+        </center>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
